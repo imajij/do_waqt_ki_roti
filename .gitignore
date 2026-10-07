@@ -1,0 +1,25 @@
+# Never commit secrets
+.env
+*.cookie
+*credentials*
+*secret*
+
+# Personal data: keep your own campaign out of the public template
+memory/preferences.md
+resumes/master/*
+!resumes/master/master.example.json
+!resumes/master/.gitkeep
+resumes/tailored/*
+outreach/cover_letters/*
+outreach/answers/*
+outreach/drafts/*
+outreach/posts/*
+outreach/contacts_raw.json
+profile-audit/*
+tracker/*.json
+tracker/jds/*
+tracker/results/*
+tracker/dashboard.html
+tracker/.pdf_jobs.json
+DECISIONS.md
+!**/.gitkeep

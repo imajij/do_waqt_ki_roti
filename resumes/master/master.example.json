@@ -1,0 +1,27 @@
+{
+  "_readme": "Copy to master.json and replace with YOUR true facts. Bullets under 'verify' are never used in tailored resumes until confirmed. Tags: backend, fullstack, frontend, mobile, devops, fde, ai, rust, swe.",
+  "name": "Your Name",
+  "contact": {"location": "City, Country", "phone": "+00 00000 00000", "email": "you@example.com", "portfolio": "yoursite.dev", "linkedin": "linkedin.com/in/you", "github": "github.com/you"},
+  "headline_options": {
+    "backend": "Backend-leaning CS student ('YY) shipping <stack> services in production.",
+    "fullstack": "Full-stack engineer ('YY) building <stack> products.",
+    "devops": "Backend and DevOps engineer ('YY) running workloads on <cloud>.",
+    "fde": "Engineer ('YY) who ships client-facing systems end to end.",
+    "mobile": "Software engineer ('YY) building mobile apps with <framework>.",
+    "swe": "Software engineer ('YY) with <N> internships and <signature achievement>."
+  },
+  "education": [{"school": "University Name", "degree": "B.Tech/B.Sc. Computer Science", "location": "City", "dates": "Aug 2024 – May 2028 (expected)", "details": ["Leadership / honors (optional)"]}],
+  "experience": [{
+    "id": "acme", "company": "Acme Corp", "title": "Software Engineering Intern", "location": "City · Hybrid", "dates": "Jun 2026 – Present",
+    "bullets": [
+      {"text": "Built <what> with <stack>, which <measurable result>.", "tags": ["backend", "swe"]},
+      {"text": "Migrated <system> to <platform>, cutting <metric> by <amount>.", "tags": ["devops"]}
+    ],
+    "verify": [{"text": "A metric you haven't confirmed yet.", "note": "how was it measured?"}]
+  }],
+  "open_source": [{"id": "proj", "name": "org/repo", "stack": "Language", "desc": "What the project is", "link": "github.com/org/repo",
+    "bullets": [{"text": "Fixed <bug> by <approach> (PR #123, merged).", "tags": ["backend", "swe"]}]}],
+  "projects": [{"id": "side", "name": "project-name", "stack": "Stack", "desc": "One-line description", "link": "github.com/you/project", "tags": ["fullstack"],
+    "bullets": [{"text": "Built <feature>; <measurable outcome>.", "tags": ["fullstack", "swe"]}]}],
+  "skills": {"Languages": ["…"], "Backend": ["…"], "Frontend & Mobile": ["…"], "Data": ["…"], "Cloud & DevOps": ["…"]}
+}
